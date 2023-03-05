@@ -16,7 +16,7 @@ const upload = multer({ storage });
 
 import db from 'mongoose';
 db.set('strictQuery', false);
-db.connect('mongodb+srv://korobkadmytro:mCwUXWUSYpfPsnsZ@cluster.u76f5pc.mongodb.net/blog?retryWrites=true&w=majority')
+db.connect('mongodb+srv://[login]:[password]@cluster.u76f5pc.mongodb.net/blog?retryWrites=true&w=majority')
     .then( () => console.log('DB ok'))
     .catch(() => console.log('DB error', err));
 

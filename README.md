@@ -1,4 +1,5 @@
 Implemented:
+
 0. MongoDB
 1. Registration (GET: http: //localhost:3000/register).
 2. Authorization (GET: http: //localhost:3000/login).
